@@ -1,0 +1,16 @@
+.button {
+    background-color: #3e474e;
+    font-family: 'Josefin Sans', 'sans-serif';
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.button:hover {
+    background-color: #4c545e;
+}
