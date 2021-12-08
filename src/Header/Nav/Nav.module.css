@@ -1,0 +1,29 @@
+.nav {
+    /*border: 1px solid black;*/
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: white;*/
+    font-family: 'Josefin Sans', 'sans-serif';
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 18.54px;
+    color: #fff;
+}
+.nav span{
+    position: relative;
+}
+.nav span::before{
+    content: "";
+    background: #4e93e6;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.nav span:hover{
+    cursor: pointer;
+}

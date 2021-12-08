@@ -1,0 +1,37 @@
+.projectsBlock {
+  min-height: 100vh;
+  background-color: #343a40;
+}
+
+
+.projectsContainer {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+}
+.content {
+  /*border: 1px solid black;*/
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects {
+  /*border: 1px solid;*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: flex-start;
+}
+@media screen and (max-width: 1073px) {
+  .projects{
+    justify-content: center;
+  }
+}
+
+
