@@ -1,7 +1,7 @@
-import s from "./Nav.module.css"
+import s from "./BurgerNav.module.css"
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-export const Nav = () => {
+export const BurgerNav = () => {
     return (
         <div className={s.nav}>
             <span><Link activeClass={s.active} to={'Main'} spy={true} smooth={true} offset={-30} duration={500}>Main</Link></span>

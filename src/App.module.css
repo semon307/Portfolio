@@ -1,0 +1,5 @@
+body canvas{
+    display:block;
+    vertical-align:bottom;
+    position: absolute;
+}

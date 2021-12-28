@@ -9,8 +9,10 @@
     width: 80%;
 
 }
+a {
+    text-decoration: none;
+}
 .content {
-    border: 1px solid black;
     height: 50%;
     width: 100%;
     display: flex;

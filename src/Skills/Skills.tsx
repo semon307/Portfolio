@@ -21,7 +21,7 @@ export const Skills = () => {
         backgroundImage: `url(${redux})`,
     }
     return (
-        <div className={s.skillsBlock}>
+        <div id={"Skills"} className={s.skillsBlock}>
             <div className={`${container.container} ${s.skillsContainer}`}>
                 {/*<h2 className={s.title}>Skills</h2>*/}
                 <Title title={"Skills"}/>

@@ -3,6 +3,7 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     /*background-color: white;*/
     font-family: 'Josefin Sans', 'sans-serif';
     margin-right: 10px;
