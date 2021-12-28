@@ -26,15 +26,12 @@ export const Skills = () => {
                 {/*<h2 className={s.title}>Skills</h2>*/}
                 <Title title={"Skills"}/>
                 <div className={s.skills}>
-                    <Skill title={"React"} description={" Lorem ispum dolor sit amet, conscetur adispising eit, sed do eiusmad tempor incididunt ut labore et dolore\n" +
-                    "                magna aliqua ut enim"}
+                    <Skill title={"React"} description={"A JavaScript library for building user interfaces. This App is also build with React:) "}
                     style={reactImage}/>
-                    <Skill title={"TypeScript"} description={" Lorem ispum dolor sit amet, conscetur adispising eit, sed do eiusmad tempor incididunt ut labore et dolore\n" +
-                    "                magna aliqua ut enim"}
+                    <Skill title={"TypeScript"} description={"JavaScripts with types! I love it! I always use TypeScript in my applications."}
                            style={tsImage}
                            />
-                    <Skill title={"Redux"} description={" Lorem ispum dolor sit amet, conscetur adispising eit, sed do eiusmad tempor incididunt ut labore et dolore\n" +
-                    "                magna aliqua ut enim"}
+                    <Skill title={"Redux"} description={"Most popular library for state-management in React. I like it, but I am not against to learn some alternatives (for instance, MoBX)."}
                            style={reduxImage}
                            />
 
